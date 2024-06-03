@@ -1,0 +1,27 @@
+.NavbarLogo{
+    height: 45px;
+    width: 100%;
+}
+
+/* Navbar Usericon css */
+
+.handelShowMenuicon{
+    cursor: pointer;
+}
+
+.custom-container {
+    position: relative;
+  }
+  .custom-dropdown {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  .custom-dropdown p {
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+  }

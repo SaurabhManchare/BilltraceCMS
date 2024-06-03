@@ -1,0 +1,18 @@
+.SupportEnggNavbarLogo{
+    height: 45px;
+    width: 100%;
+}
+
+
+.count-message-span {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .message-count {
+    background-color: #e82009;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+  }
+  
