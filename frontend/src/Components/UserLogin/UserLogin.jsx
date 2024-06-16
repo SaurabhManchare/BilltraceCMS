@@ -237,6 +237,45 @@ const UserLogin = () => {
               </div>
             </div>
           </p>
+            <div className="d-flex justify-content-end">
+              <h6 style={{ color: "#bb2d3b" }}>SuppEngg</h6>
+
+              <div>
+                <br />
+                <p>
+                  <a
+                    href={`tel:${9380814972}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleMobileCall(9380814972);
+                    }}
+                    style={{ display: "block", color: "black" }}
+                  >
+                    <b>Mo: 9380814972</b>
+                  </a>
+                  <a
+                    href={`tel:${9763474734}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleMobileCall(9763474734);
+                    }}
+                    style={{ display: "block", color: "black" }}
+                  >
+                    <b>Mo: 9763474734</b>
+                  </a>
+                  <a
+                    href={`tel:${8660095376}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleMobileCall(8660095376);
+                    }}
+                    style={{ display: "block", color: "black" }}
+                  >
+                    <b>Mo: 8660095376</b>
+                  </a>
+                </p>
+              </div>
+            </div>
         </div>
       </div>
     </div>
