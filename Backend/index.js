@@ -23,7 +23,11 @@ const HelpVideo = require("./routes/HelpCenterRoute")
 
 // Middleware
 app.use(cookieParser());
-app.use(cors());
+app.use(cors({
+    origin: "https://deploy-mern-1whq.vercel.app",
+    methods: ["POST", "GET"],
+    credentials: true
+}));
 dotenv.config();
 
 // Database Connection
